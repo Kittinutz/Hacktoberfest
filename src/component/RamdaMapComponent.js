@@ -22,7 +22,7 @@ const RamdaMapComponent = (props) => (
         </div>
         <div>
             {/*TEST 3 Test function how to use function yellGreeting to show "THE NAME'S DO, JOHN DO" in .text */}
-            <h1 className="text">I DON"T KNOW WHO AM I</h1>
+            <h1 className="text">{yellGreeting('john','do')}</h1>
         </div>
     </div >
 )
