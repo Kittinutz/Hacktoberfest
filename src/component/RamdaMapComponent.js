@@ -16,7 +16,7 @@ const RamdaMapComponent = (props) => (
             <RenderRamda {...props} />
         </div>
 
-        <div classname="containcar">
+        <div className="containcar">
             <h1>Hello My Car</h1>
             {/* TEST 2 HINT props.myFevouriteCar ={ vihecal: { car: { lambogini: 'Aventador' } }} place "Aventador" by R.path  */}
             <h1 className="text path">{R.path(['myFevouriteCar', 'vihecal', 'car', 'lambogini'], props)}</h1>
