@@ -3,7 +3,7 @@ import * as R from 'ramda'
 //Hint Use R.map is a pure function for map array
 // https://ramdajs.com/docs/#map
 
-const RenderRamda = ({ Bear }) => <h1 className="text">Pls use R.map and fix code herer</h1> /*** Fix Here TEST 1 R.map***/
+const RenderRamda = ({ Bears }) => R.map(ChildComponent,Bears) /*** Fix Here TEST 1 R.map***/
 
 const ChildComponent = ({ code, subject }) => <p className="text" key={code + subject}>Code:{code} Subject:{subject}</p>
 
