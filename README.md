@@ -1,4 +1,4 @@
-# Welcometo funny Hacktoberfest 
+# Welcome to funny Hacktoberfest 
 ## 
 สำหรับคนอยากได้เสื้อมาร่วมสนุกขำกันได้นะครับ
 
